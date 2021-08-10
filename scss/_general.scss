@@ -1,0 +1,142 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+   
+    
+    
+}
+
+h1{
+    color: #DD3643;
+    text-align: center;
+    font-size: 70px;
+    line-height: 0px;    
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-left: 10px;
+    
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    font-size: 50px;
+    line-height: 0px;
+    padding: 40px;
+    text-align: center;
+}
+
+h4{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+h5{
+    font-size: 40px;
+    margin: 2%;
+}
+
+h6{
+    font-size: 18px;
+    line-height: 0px;
+    margin: 20px
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+        
+}
+a:visited{ color: black
+
+}
+.centrado{
+    text-align: center;
+}
+
+body{
+background-color:white;
+font-family: 'Roboto', sans-serif;
+
+}
+.rojoFondo{ 
+    background-color: #dd3643;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 80px;
+    color: white;
+}
+.fondoNegro{
+    background: linear-gradient(to bottom right,#2400ff, #DD3643 );
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.letraBlanca{
+    color: white;
+    text-align: center;
+}
+th{
+    text-align: left;
+    border: solid black 2px;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+td{
+    text-align: left;
+    border: solid black 2px;
+    padding: 10px;
+}
+.listaOrdenada{
+    text-align: center;
+    list-style-position: inside;
+    font-size: 18px;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.textoChico{
+    margin-left: 25%;
+    margin-right: 25%;
+ }
+ .imagenHome{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;;
+}
+.boton404{
+    display: inline-block;
+    border: solid black 3px;
+    background-color: white ;
+    border-radius: 25px;
+    padding: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.div404 {
+    display: flex;
+flex-direction: column;
+}
+
+.boton404:hover {
+    box-shadow: grey 2px 2px 2px inset ;
+}

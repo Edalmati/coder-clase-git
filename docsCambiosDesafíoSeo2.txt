@@ -1,0 +1,6 @@
+Agregu� meta description, meta keywords en todas las p�ginas.
+Correj� los t�tulos para que en todos aparezca el nombre general adem�s 
+del espec�fico
+Cambi� los lorem por textos y correj� algunos textos de los que ya estaban 
+escritos
+Para el complementario agregué el breadcrumb y la página personalizada 404 (para acceder usar el formulario sin poner nada y te dirige ahi)

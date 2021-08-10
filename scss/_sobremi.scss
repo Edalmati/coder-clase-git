@@ -1,0 +1,53 @@
+.textoEva{
+    display: inline-block;
+    color: white;
+    width: 50%;
+
+}
+.divListaMaldita{
+    background-image: url("../Imagenes/Foto_BG_About_Emi.jpg");
+    padding-bottom: 60px;
+    padding-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-position: bottom;
+    color: white;
+    
+}
+
+
+.videoMegaloDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.videoMegalovania{
+    flex-basis: 100px;
+    margin-right: 70px;
+  
+}
+.textoVideoMegalo{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-weight: 400;
+    animation-name: cambioDeColor ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes cambioDeColor {
+    0% { 
+        color: #DD3643
+            }
+
+    60% {
+        color: black
+    }
+    100% { 
+        color: #DD3643;
+    }
+}

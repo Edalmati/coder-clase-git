@@ -1,0 +1,31 @@
+.valoresClases{
+    
+    padding-bottom: 20px;
+  color: black;
+}
+.padrePrecios{
+    display: grid;
+    grid-template-areas: "claseGt precioGt" "claseTeoria precioTeoria";
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+
+}
+
+.claseGt{
+    grid-area: claseGt;
+}
+
+.precioGt{
+    grid-area: precioGt;
+}
+.claseTeoria{
+    grid-area: claseTeoria
+}
+.precioTeoria{
+    grid-area: precioTeoria;
+}
+
+.rojoBs{
+    background-color: #DD3643;
+    color: white;
+}

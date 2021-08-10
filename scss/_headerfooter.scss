@@ -1,0 +1,79 @@
+.emiliano{
+    margin-bottom: 35px;
+}
+.dalmati{
+    margin-top: 35px;
+    font-size: 73px;
+}
+header{
+    background-color: white;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+ul.navMenu {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150%;
+      }
+      footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+     }
+     li.menu{
+        flex-basis: 1000px;
+        flex-grow: 0;
+        width: 160px;
+        position: relative;
+    }
+    
+    .submenu{
+        position: absolute;
+        display: none;
+    }
+    .submenuItem{
+        display: block;
+    }
+    
+    .menuAboutMe:hover > .submenu {
+        display: block;
+     
+    }
+    .socialDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 600px;
+        
+        
+    }
+    .bread{
+        margin: 0px;
+        padding: 0px;
+    }

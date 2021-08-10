@@ -1,0 +1,126 @@
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+  }
+  
+  input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+  }
+  
+  input[type=submit] {
+    background-color:#DD3643 ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: #DD3643;
+  }
+  input[type=reset] {
+    background-color:#DD3643 ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=reset]:hover {
+    background-color: white;
+    color: #DD3643;
+  }
+
+  input[type=checkbox] {
+      margin-left: 2%;
+  }
+
+  div.formContacto{
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .form1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px 0px 25px 0px;
+        .formEdad{
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            justify-content: space-between;
+        }
+    }
+    .form2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 25px 0px 30px;
+        align-items: center;
+        .formInfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background:linear-gradient(to bottom right,#2400ff, #DD3643 );
+            border-radius: 10px;
+            padding: 5px;
+            color: white;
+
+
+        }
+      .formCheck{
+          display: flex;
+          background-color: black;
+          color: white;
+          align-items: center;
+         
+      }
+      p{
+          margin-bottom: 0px;
+      }
+        
+    }
+}
+
+
+
+
+
+
+
+//     grid-template-areas:"formNombre formEdad formPais" "formSubmit formSubmit formSubmit" ;
+//     grid-template-rows: 300px 200px;
+//     grid-template-columns: 33% 33% 33%;
+//    .formNombre{ grid-area: formNombre;
+//         }
+//     .formEdad{ grid-area: formEdad;
+//         }
+//     .formPais{ grid-area: formPais;
+//         }
+//     .formSubmit{ grid-area: formSubmit;
+//         }        
