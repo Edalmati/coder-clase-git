@@ -197,7 +197,7 @@ li.menu {
   padding: 0px; }
 
 .menu:hover {
-  text-shadow: #fac0c0 1px 1px; }
+  text-shadow: #fac0c0 2px 2px; }
 
 input[type=text], select, textarea {
   width: 100%;
@@ -497,3 +497,6 @@ div.formContacto {
 .rojoBs {
   background-color: #DD3643;
   color: white; }
+
+.accordion-collapse > .collapse {
+  background-color: red; }
