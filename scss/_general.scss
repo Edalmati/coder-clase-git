@@ -71,14 +71,17 @@ background-color:white;
 font-family: 'Roboto', sans-serif;
 
 }
+span{
+    font-weight: bold;
+}
 .rojoFondo{ 
     background-color: #dd3643;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding: 80px;
     color: white;
 }
-.fondoNegro{
+.fondoGrad{
     background: linear-gradient(to bottom right,#2400ff, #DD3643 );
     padding: 60px;
     display: flex;

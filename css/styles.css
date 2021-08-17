@@ -58,14 +58,17 @@ body {
   background-color: white;
   font-family: 'Roboto', sans-serif; }
 
+span {
+  font-weight: bold; }
+
 .rojoFondo {
   background-color: #dd3643;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 0px;
   padding: 80px;
   color: white; }
 
-.fondoNegro {
+.fondoGrad {
   background: linear-gradient(to bottom right, #2400ff, #DD3643);
   padding: 60px;
   display: flex;
@@ -310,7 +313,8 @@ div.formContacto {
   justify-content: space-between;
   width: 55%;
   margin-left: 450px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 .videoMegalovania {
   flex-basis: 100px;
@@ -323,6 +327,13 @@ div.formContacto {
   animation-name: cambioDeColor;
   animation-duration: 4s;
   animation-iteration-count: infinite; }
+
+.carrera {
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 80px;
+  color: black; }
 
 @keyframes cambioDeColor {
   0% {
