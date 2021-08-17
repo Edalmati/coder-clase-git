@@ -28,10 +28,14 @@
 .rojoBs{
     background-color: #DD3643;
     color: white;
-    
-   
-    }
-    .accordion-collapse > .collapse{
-        background-color: red;
+    font-size: 25px;
+    font-weight: 600;
+    &[aria-expanded=true]{
+        background-color: #fac0c0;
+        color: #DD3643;
+        
     }
 
+   
+    }
+  

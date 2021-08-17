@@ -496,7 +496,9 @@ div.formContacto {
 
 .rojoBs {
   background-color: #DD3643;
-  color: white; }
-
-.accordion-collapse > .collapse {
-  background-color: red; }
+  color: white;
+  font-size: 25px;
+  font-weight: 600; }
+  .rojoBs[aria-expanded=true] {
+    background-color: #fac0c0;
+    color: #DD3643; }
