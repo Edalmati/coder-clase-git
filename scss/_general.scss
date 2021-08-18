@@ -23,14 +23,14 @@ h2{
 }
 
 h3{
-    font-size: 50px;
-    line-height: 0px;
+    font-size: 3.125rem;
     padding: 40px;
     text-align: center;
+    
 }
 
 h4{
-    font-size: 50px;
+    font-size: 3.125rem;
     text-align: center;
     padding: 20px;
 }
@@ -76,10 +76,10 @@ span{
 }
 .rojoFondo{ 
     background-color: #dd3643;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    padding: 80px;
+    margin-top: 1.875rem;
+    padding: 5rem;
     color: white;
+    width: 100%;
 }
 .fondoGrad{
     background: linear-gradient(to bottom right,#2400ff, #DD3643 );
