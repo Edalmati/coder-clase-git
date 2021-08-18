@@ -1,19 +1,20 @@
 .emiliano{
-    margin-bottom: 35px;
+    margin-bottom: 2.188rem;
 }
 .dalmati{
-    margin-top: 35px;
+    margin-top: 2.188rem;
     font-size: 73px;
 }
 header{
     background-color: white;
-    padding-bottom: 30px;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    padding-bottom: 1.875rem;
+    margin-top: 3.75rem;
+    margin-bottom: 1.875rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
    
 }
 .titulo{
@@ -29,7 +30,7 @@ ul.navMenu {
     margin: 0;
     padding-bottom: 20px;
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 700;
     color: black;
     display: flex;
