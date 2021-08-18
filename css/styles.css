@@ -56,7 +56,8 @@ a:visited {
 
 body {
   background-color: white;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden; }
 
 span {
   font-weight: bold; }
@@ -380,6 +381,37 @@ div.formContacto {
 .insetHover:hover {
   box-shadow: inset grey 4px 4px 4px; }
 
+.valoresClases {
+  padding-bottom: 20px;
+  color: black; }
+
+.padrePrecios {
+  display: grid;
+  grid-template-areas: "claseGt precioGt" "claseTeoria precioTeoria";
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%; }
+
+.claseGt {
+  grid-area: claseGt; }
+
+.precioGt {
+  grid-area: precioGt; }
+
+.claseTeoria {
+  grid-area: claseTeoria; }
+
+.precioTeoria {
+  grid-area: precioTeoria; }
+
+.rojoBs {
+  background-color: #DD3643;
+  color: white;
+  font-size: 25px;
+  font-weight: 600; }
+  .rojoBs[aria-expanded=true] {
+    background-color: #fac0c0;
+    color: #DD3643; }
+
 @media only screen and (max-width: 720px) {
   .gridMaterial {
     display: grid;
@@ -413,7 +445,8 @@ div.formContacto {
     font-size: 25px;
     font-weight: 700;
     color: black;
-    display: block; }
+    display: flex;
+    flex-direction: column; }
   h1 {
     color: #DD3643;
     text-align: center;
@@ -465,7 +498,8 @@ div.formContacto {
     font-size: 25px;
     font-weight: 700;
     color: black;
-    display: block; }
+    display: flex;
+    flex-direction: column; }
   h1 {
     color: #DD3643;
     text-align: center;
@@ -482,34 +516,3 @@ div.formContacto {
   .submenu {
     position: unset;
     display: none; } }
-
-.valoresClases {
-  padding-bottom: 20px;
-  color: black; }
-
-.padrePrecios {
-  display: grid;
-  grid-template-areas: "claseGt precioGt" "claseTeoria precioTeoria";
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 50% 50%; }
-
-.claseGt {
-  grid-area: claseGt; }
-
-.precioGt {
-  grid-area: precioGt; }
-
-.claseTeoria {
-  grid-area: claseTeoria; }
-
-.precioTeoria {
-  grid-area: precioTeoria; }
-
-.rojoBs {
-  background-color: #DD3643;
-  color: white;
-  font-size: 25px;
-  font-weight: 600; }
-  .rojoBs[aria-expanded=true] {
-    background-color: #fac0c0;
-    color: #DD3643; }
