@@ -2,7 +2,7 @@
     .gridMaterial{
         display: grid;
     grid-template-areas: "imgMaterial " "materialGt " "materialTeoria " "materialAudio";
-    grid-template-rows: 700px 700px 700px 700px;
+    grid-template-rows: 30rem 30rem 30rem 30rem;
     grid-template-columns: 100%;
     text-align: center;
     }
@@ -27,9 +27,9 @@
         margin-bottom: 10px;
         display: flex;
         flex-direction: column;
-        width: 75%;
+        flex-wrap: wrap;
     }
-    ul.nav {
+    ul.navMenu {
         text-align: center;
         list-style-type: none;
         margin: 10;
@@ -66,7 +66,7 @@
     .gridMaterial{
         display: grid;
         grid-template-areas: "imgMaterial materialGt" "imgMaterial materialTeoria" "imgMaterial materialAudio";
-        grid-template-rows: 500px 500px 500px;
+        grid-template-rows: 28rem 28rem 28rem;
         grid-template-columns: 35% 65%;
         text-align: center;
         
@@ -92,9 +92,9 @@
         margin-bottom: 10px;
         display: flex;
         flex-direction: column;
-        width: 75%;
+        flex-wrap: wrap;
     }
-    ul.nav {
+    ul.navMenu {
         text-align: center;
         list-style-type: none;
         margin: 10;

@@ -9,6 +9,7 @@
 .imagenMaterial{
     background-image: url(../Imagenes/materiales_teoricos.png);
     grid-area: imgMaterial;
+    background-repeat: no-repeat;
 }
 .materialGt{
     grid-area: materialGt;

@@ -14,7 +14,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+   
 }
 .titulo{
     display: flex;
@@ -35,7 +35,7 @@ ul.navMenu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 150%;
+    
       }
       footer{
         display: flex;
@@ -47,9 +47,8 @@ ul.navMenu {
         
      }
      li.menu{
-        flex-basis: 1000px;
         flex-grow: 0;
-        width: 160px;
+        width: 12rem;
         position: relative;
        
     }
