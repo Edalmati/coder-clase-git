@@ -19,7 +19,9 @@ h2 {
 h3 {
   font-size: 3.125rem;
   padding: 40px;
-  text-align: center; }
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 h4 {
   font-size: 3.125rem;
@@ -73,12 +75,15 @@ span {
   padding: 60px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap-reverse;
   align-items: center;
   justify-content: space-evenly; }
 
 .letraBlanca {
   color: white;
-  text-align: center; }
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 th {
   text-align: left;
@@ -308,15 +313,16 @@ div.formContacto {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 55%;
-  margin-left: 450px;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap-reverse;
   margin-top: 30px;
   margin-bottom: 30px; }
 
 .videoMegalovania {
   flex-basis: 100px;
-  margin-right: 70px; }
+  margin-right: 70px;
+  width: 50%; }
 
 .textoVideoMegalo {
   margin-top: 10px;
@@ -324,7 +330,8 @@ div.formContacto {
   font-weight: 400;
   animation-name: cambioDeColor;
   animation-duration: 4s;
-  animation-iteration-count: infinite; }
+  animation-iteration-count: infinite;
+  width: 50%; }
 
 .carrera {
   background-color: white;
@@ -435,7 +442,9 @@ div.formContacto {
     margin-bottom: 0.625rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto; }
   ul.navMenu {
     text-align: center;
     list-style-type: none;
@@ -444,7 +453,9 @@ div.formContacto {
     font-weight: 700;
     color: black;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto; }
   h1 {
     color: #DD3643;
     text-align: center;
@@ -454,6 +465,12 @@ div.formContacto {
     letter-spacing: 3px;
     margin-left: auto;
     margin-right: auto; }
+  h3 {
+    font-size: 2rem;
+    padding: 0px; }
+  h4 {
+    font-size: 2rem;
+    padding: 0px; }
   .emiliano {
     margin-bottom: 2.188rem; }
   .dalmati {
@@ -509,6 +526,12 @@ div.formContacto {
     letter-spacing: 3px;
     margin-left: auto;
     margin-right: auto; }
+  h3 {
+    font-size: 2rem;
+    padding: 0px; }
+  h4 {
+    font-size: 2rem;
+    padding: 0px; }
   .emiliano {
     margin-bottom: 2.188rem;
     margin-left: auto;

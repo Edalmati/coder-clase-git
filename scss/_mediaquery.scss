@@ -28,6 +28,8 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
     }
     ul.navMenu {
         text-align: center;
@@ -38,8 +40,10 @@
         color: black;
         display:flex;
         flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
           }
-          h1{
+    h1{
             color: #DD3643;
             text-align: center;
             font-size: 3.125rem;
@@ -48,6 +52,14 @@
             letter-spacing: 3px;
             margin-left: auto;
             margin-right: auto;
+        }
+        h3{
+            font-size: 2rem;
+            padding: 0px;
+        }
+        h4{
+            font-size: 2rem;
+            padding: 0px;
         }
         .emiliano{
             margin-bottom: 2.188rem;
@@ -117,6 +129,14 @@
             letter-spacing: 3px;
             margin-left: auto;
             margin-right: auto;
+        }
+        h3{
+            font-size: 2rem;
+            padding: 0px;
+        }
+        h4{
+            font-size: 2rem;
+            padding: 0px;
         }
         .emiliano{
             margin-bottom: 2.188rem;
