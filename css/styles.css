@@ -217,6 +217,9 @@ li.menu {
   background-position: left 0% bottom 0;
   transition: background-position 0.5s; }
 
+.navMobile {
+  display: none; }
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -304,6 +307,8 @@ div.formContacto {
       background-color: black;
       color: white;
       align-items: center; }
+    div.formContacto .form2 .picContacto {
+      background-image: url(../Imagenes/Contacto.jpg); }
     div.formContacto .form2 p {
       margin-bottom: 0px; }
 
@@ -490,6 +495,10 @@ div.formContacto {
     font-size: 3.25rem; }
   .submenu {
     position: unset;
+    display: none; }
+  .navMobile {
+    display: block; }
+  .navDesktop {
     display: none; } }
 
 @media only screen and (min-width: 720px) and (max-width: 1024px) {
