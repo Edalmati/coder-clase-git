@@ -1,10 +1,9 @@
-.textoEva{
+.textoEva {
     display: inline-block;
     color: white;
     width: 50%;
-
 }
-.divListaMaldita{
+.divListaMaldita {
     background-image: url("../Imagenes/Foto_BG_About_Emi.jpg");
     padding-bottom: 60px;
     padding-top: 60px;
@@ -12,11 +11,9 @@
     margin-bottom: 30px;
     background-position: bottom;
     color: white;
-    
 }
 
-
-.videoMegaloDiv{
+.videoMegaloDiv {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,39 +23,50 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.videoMegalovania{
+.videoMegalovania {
     flex-basis: 100px;
     margin-right: 70px;
     width: 50%;
-  
 }
-.textoVideoMegalo{
+.textoVideoMegalo {
     margin-top: 10px;
     margin-left: 70px;
     font-weight: 400;
-    animation-name: cambioDeColor ;
+    animation-name: cambioDeColor;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     width: 50%;
-    
 }
 
-.carrera{ 
+.carrera {
     background-color: white;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 80px;
     color: black;
 }
+.picSobreMi {
+    background-image: url(../Imagenes/fotoAboutEmi.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
 @keyframes cambioDeColor {
-    0% { 
-        color: #DD3643
-            }
+    0% {
+        color: #dd3643;
+    }
 
     60% {
-        color: black
+        color: black;
     }
-    100% { 
-        color: #DD3643;
+    100% {
+        color: #dd3643;
     }
 }

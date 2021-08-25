@@ -2,6 +2,9 @@
   margin-left: 0px;
   margin-right: 0px; }
 
+html {
+  height: 100%; }
+
 h1 {
   color: #DD3643;
   text-align: center;
@@ -9,12 +12,17 @@ h1 {
   line-height: 0px;
   font-weight: 900;
   letter-spacing: 3px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  text-shadow: darkgrey 1px 1px 3px; }
 
 h2 {
-  font-size: 60px;
+  font-size: 65px;
   text-align: center;
-  padding: 20px; }
+  padding: 20px;
+  font-weight: 800;
+  text-shadow: black 2px 1px 5px;
+  animation-name: aparicion;
+  animation-duration: 1.5s; }
 
 h3 {
   font-size: 3.125rem;
@@ -58,7 +66,8 @@ a:visited {
 body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  height: 100%; }
 
 span {
   font-weight: bold; }
@@ -131,6 +140,18 @@ iframe {
 
 .boton404:hover {
   box-shadow: grey 2px 2px 2px inset; }
+
+.redShadow {
+  text-shadow: darkred 2px 1px 5px; }
+
+.greyShadow {
+  text-shadow: lightgrey 2px 2px 2px; }
+
+@keyframes aparicion {
+  0% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
 
 .emiliano {
   margin-bottom: 2.188rem; }
@@ -307,10 +328,18 @@ div.formContacto {
       background-color: black;
       color: white;
       align-items: center; }
-    div.formContacto .form2 .picContacto {
-      background-image: url(../Imagenes/Contacto.jpg); }
-    div.formContacto .form2 p {
-      margin-bottom: 0px; }
+
+.picContacto {
+  background-image: url(../Imagenes/Contacto.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; }
 
 .textoEva {
   display: inline-block;
@@ -357,13 +386,25 @@ div.formContacto {
   padding: 80px;
   color: black; }
 
+.picSobreMi {
+  background-image: url(../Imagenes/fotoAboutEmi.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; }
+
 @keyframes cambioDeColor {
   0% {
-    color: #DD3643; }
+    color: #dd3643; }
   60% {
     color: black; }
   100% {
-    color: #DD3643; } }
+    color: #dd3643; } }
 
 .gridMaterial {
   display: grid;
@@ -395,10 +436,16 @@ div.formContacto {
   border: solid black 3px;
   background-color: white;
   border-radius: 25px;
-  padding: 5px; }
+  padding: 10px;
+  box-shadow: #ffc2c2 2px 2px 2px;
+  transition: all .5s ease-out; }
 
 .botonDescarga:hover {
-  transform: scale(1.3, 1); }
+  border: solid black 3px;
+  background: linear-gradient(to bottom right, #2400ff, #DD3643);
+  border-radius: 25px;
+  padding: 10px;
+  color: white; }
 
 .insetHover:hover {
   box-shadow: inset grey 4px 4px 4px; }
@@ -433,6 +480,18 @@ div.formContacto {
   .rojoBs[aria-expanded=true] {
     background-color: #fac0c0;
     color: #DD3643; }
+
+.picClases {
+  background-image: url(../Imagenes/fotoClasesEmi.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; }
 
 @media only screen and (max-width: 720px) {
   .gridMaterial {

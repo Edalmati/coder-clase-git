@@ -100,15 +100,25 @@ input[type=text], select, textarea {
           align-items: center;
          
       }
-      .picContacto{
-        background-image: url(../Imagenes/Contacto.jpg);
-      }
-      p{
-          margin-bottom: 0px;
-      }
+      
+   
         
     }
     
+}
+.picContacto{
+  background-image: url(../Imagenes/Contacto.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+  
 }
 
 

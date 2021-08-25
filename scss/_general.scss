@@ -5,6 +5,9 @@
     
     
 }
+html{
+    height: 100%;
+}
 
 h1{
     color: #DD3643;
@@ -14,12 +17,17 @@ h1{
     font-weight: 900;
     letter-spacing: 3px;
     margin-left: 10px;
+    text-shadow: darkgrey 1px 1px 3px;
     
 }
 h2{
-    font-size: 60px;
+    font-size: 65px;
     text-align: center;
     padding: 20px;
+    font-weight: 800;
+    text-shadow: black 2px 1px 5px;
+    animation-name: aparicion;
+    animation-duration: 1.5s;
 }
 
 h3{
@@ -28,6 +36,7 @@ h3{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    
   
     
 }
@@ -36,6 +45,7 @@ h4{
     font-size: 3.125rem;
     text-align: center;
     padding: 20px;
+    
 }
 h5{
     font-size: 40px;
@@ -62,6 +72,7 @@ a{
     
         
 }
+
 a:visited{ color: black
 
 }
@@ -73,6 +84,7 @@ body{
 background-color:white;
 font-family: 'Roboto', sans-serif;
 overflow-x: hidden;
+height: 100%;
 }
 span{
     font-weight: bold;
@@ -148,4 +160,20 @@ flex-direction: column;
 
 .boton404:hover {
     box-shadow: grey 2px 2px 2px inset ;
+}
+
+.redShadow{
+    text-shadow:darkred 2px 1px 5px
+}
+.greyShadow{
+    text-shadow:lightgrey 2px 2px 2px
+}
+
+@keyframes aparicion {
+    0% {
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
 }
