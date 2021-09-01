@@ -206,7 +206,9 @@ li.menu {
 
 .submenu {
   position: absolute;
-  display: none; }
+  display: none;
+  margin: 0px;
+  padding-left: 20%; }
 
 .submenuItem {
   display: block; }
@@ -566,7 +568,8 @@ div.formContacto {
     font-size: 3.25rem; }
   .submenu {
     position: unset;
-    display: none; }
+    display: none;
+    padding-left: 0px; }
   header label {
     margin-top: 10%;
     display: block; }
