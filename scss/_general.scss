@@ -166,7 +166,9 @@ flex-direction: column;
 .greyShadow{
     text-shadow:lightgrey 2px 2px 2px
 }
-
+.pointer{
+    cursor: pointer;
+}
 @keyframes aparicion {
     0% {
         opacity: 0.1;

@@ -143,6 +143,9 @@ iframe {
 .greyShadow {
   text-shadow: lightgrey 2px 2px 2px; }
 
+.pointer {
+  cursor: pointer; }
+
 @keyframes aparicion {
   0% {
     opacity: 0.1; }
@@ -496,7 +499,7 @@ div.formContacto {
   .gridMaterial {
     display: grid;
     grid-template-areas: "imgMaterial " "materialGt " "materialTeoria " "materialAudio";
-    grid-template-rows: 36rem 36rem 36rem 36rem;
+    grid-template-rows: 36rem 25rem 25rem 25rem;
     grid-template-columns: 100%;
     text-align: center; }
   footer {
@@ -553,7 +556,7 @@ div.formContacto {
     margin-top: 2.188rem;
     font-size: 3.25rem; }
   p {
-    font-size: 15px; }
+    font-size: 16px; }
   .submenu {
     position: unset;
     display: none;
@@ -567,7 +570,7 @@ div.formContacto {
     display: flex;
     flex-direction: column; }
   .listaFechas {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     margin: auto; } }
 
