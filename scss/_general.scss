@@ -102,7 +102,7 @@ span{
     padding: 60px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -125,11 +125,8 @@ td{
     border: solid black 2px;
     padding: 10px;
 }
-.listaOrdenada{
-    text-align: center;
-    list-style-position: inside;
-    font-size: 18px;
-}
+
+
 iframe{
     display: block;
     margin-left: auto;

@@ -85,7 +85,7 @@ span {
   padding: 60px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly; }
 
@@ -106,11 +106,6 @@ td {
   text-align: left;
   border: solid black 2px;
   padding: 10px; }
-
-.listaOrdenada {
-  text-align: center;
-  list-style-position: inside;
-  font-size: 18px; }
 
 iframe {
   display: block;
@@ -196,8 +191,8 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 20px;
-  margin-top: 20px; }
+  padding-bottom: 1.25rem;
+  margin-top: 1.25rem; }
 
 li.menu {
   flex-grow: 0;
@@ -352,35 +347,26 @@ div.formContacto {
   color: white;
   width: 50%; }
 
-.divListaMaldita {
-  background-image: url("../Imagenes/Foto_BG_About_Emi.jpg");
-  padding-bottom: 60px;
-  padding-top: 60px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-position: bottom;
-  color: white; }
+.listaFechas {
+  text-align: center;
+  margin: auto;
+  font-size: 20px; }
 
 .videoMegaloDiv {
-  display: grid;
-  grid-template-areas: "videosTitulo videosTitulo" "megaloTexto megaloVideo";
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100px 500px;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px; }
 
 .videosTitulo {
-  grid-area: videosTitulo;
   text-align: center; }
 
 .videoMegalovania {
-  grid-area: megaloVideo;
   margin-right: 70px;
   width: 50%; }
 
 .textoVideoMegalo {
-  grid-area: megaloTexto;
   margin-top: 10px;
   margin-left: 70px;
   font-weight: 400;
@@ -566,6 +552,8 @@ div.formContacto {
   .dalmati {
     margin-top: 2.188rem;
     font-size: 3.25rem; }
+  p {
+    font-size: 15px; }
   .submenu {
     position: unset;
     display: none;
@@ -577,7 +565,11 @@ div.formContacto {
     display: none; }
   #btn-menu:checked ~ .navMobile {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .listaFechas {
+    font-size: 15px;
+    text-align: center;
+    margin: auto; } }
 
 @media only screen and (min-width: 720px) and (max-width: 1024px) {
   .gridMaterial {
@@ -604,18 +596,21 @@ div.formContacto {
     margin-bottom: 0.625rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto; }
   ul.navMenu {
     text-align: center;
     list-style-type: none;
+    padding-left: 0px;
     margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.563rem;
+    font-size: 1.56rem;
     font-weight: 700;
     color: black;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto; }
   h1 {
     color: #DD3643;
     text-align: center;

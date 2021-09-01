@@ -3,37 +3,34 @@
     color: white;
     width: 50%;
 }
-.divListaMaldita {
-    background-image: url("../Imagenes/Foto_BG_About_Emi.jpg");
-    padding-bottom: 60px;
-    padding-top: 60px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-position: bottom;
-    color: white;
+.listaFechas{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
 }
 
+
+
+
 .videoMegaloDiv {
-    display: grid;
-  grid-template-areas: "videosTitulo videosTitulo" "megaloTexto megaloVideo";
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100px 500px; 
+    display: flex;
+    flex-wrap: wrap;
   width: 100%;
     
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .videosTitulo{
-    grid-area: videosTitulo;
+    
     text-align: center;
 }
 .videoMegalovania {
-    grid-area: megaloVideo;
+    
     margin-right: 70px;
     width: 50%;
 }
 .textoVideoMegalo {
-    grid-area: megaloTexto;
+    
     margin-top: 10px;
     margin-left: 70px;
     font-weight: 400;
