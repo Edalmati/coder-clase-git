@@ -34,6 +34,7 @@
     ul.navMenu {
         text-align: center;
         list-style-type: none;
+        padding-left: 0px;
         margin: 0;
         font-size: 1.56rem;
         font-weight: 700;
@@ -72,12 +73,49 @@
             position:unset ;
             display: none;
         }
-        .navMobile{
+
+        header label{
+            margin-top: 10%;
             display: block;
         }
-        .navDesktop{
+
+        .navMobile{
+           
             display: none;
         }
+        #btn-menu:checked ~ .navMobile {
+            display:flex;
+            flex-direction: column;;
+        }
+
+        // .navMobile{
+        //     top: 0;
+        //     left: -100%;
+        //     width: 100%;
+        //     height: 100vh;
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: center;
+        //     align-items: center;
+        // }
+        // .navMobile.open{
+        //     left: 0;
+        // }
+        // .navMobile a{
+        //     padding: 1rem;
+        // }
+        // .hamburger {
+        //     position: fixed;
+        //     bottom: 2rem;
+        //     right: 2rem;
+        //     padding: 0.5em 1em;
+        //     background: grey;
+        //     border: none;
+        //     border-radius: 50%;
+        //     box-shadow: 1px 1px 3px #000;
+        //     cursor: pointer;
+        //     z-index: 1000;
+        //   }
 }
 
 @media only screen and (min-width: 720px) and (max-width: 1024px) {

@@ -14,28 +14,36 @@
 }
 
 .videoMegaloDiv {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    flex-wrap: wrap-reverse;
+    display: grid;
+  grid-template-areas: "videosTitulo videosTitulo" "megaloTexto megaloVideo";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 500px; 
+  width: 100%;
+    
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.videosTitulo{
+    grid-area: videosTitulo;
+    text-align: center;
+}
 .videoMegalovania {
-    flex-basis: 100px;
+    grid-area: megaloVideo;
     margin-right: 70px;
     width: 50%;
 }
 .textoVideoMegalo {
+    grid-area: megaloTexto;
     margin-top: 10px;
     margin-left: 70px;
     font-weight: 400;
     animation-name: cambioDeColor;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    width: 50%;
+  width: 50%;
+  margin: auto;
+    align-items: center;
+   justify-items: center;
 }
 
 .carrera {

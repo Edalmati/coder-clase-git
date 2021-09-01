@@ -96,6 +96,9 @@ ul.navMenu {
                 background-position: left 0% bottom 0;
                 transition: background-position 0.5s;
               }
-     .navMobile{
-                display: none;
-              }
+    #btn-menu{
+        display: none;
+    }
+    header label{
+        display: none;
+    }

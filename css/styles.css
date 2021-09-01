@@ -55,7 +55,8 @@ ul {
 
 a {
   text-decoration: none;
-  color: black; }
+  color: black;
+  cursor: pointer; }
 
 a:visited {
   color: black; }
@@ -238,7 +239,10 @@ li.menu {
   background-position: left 0% bottom 0;
   transition: background-position 0.5s; }
 
-.navMobile {
+#btn-menu {
+  display: none; }
+
+header label {
   display: none; }
 
 input[type=text], select, textarea {
@@ -356,28 +360,35 @@ div.formContacto {
   color: white; }
 
 .videoMegaloDiv {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-areas: "videosTitulo videosTitulo" "megaloTexto megaloVideo";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 500px;
   width: 100%;
-  flex-wrap: wrap-reverse;
   margin-top: 30px;
   margin-bottom: 30px; }
 
+.videosTitulo {
+  grid-area: videosTitulo;
+  text-align: center; }
+
 .videoMegalovania {
-  flex-basis: 100px;
+  grid-area: megaloVideo;
   margin-right: 70px;
   width: 50%; }
 
 .textoVideoMegalo {
+  grid-area: megaloTexto;
   margin-top: 10px;
   margin-left: 70px;
   font-weight: 400;
   animation-name: cambioDeColor;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  width: 50%; }
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  justify-items: center; }
 
 .carrera {
   background-color: white;
@@ -524,6 +535,7 @@ div.formContacto {
   ul.navMenu {
     text-align: center;
     list-style-type: none;
+    padding-left: 0px;
     margin: 0;
     font-size: 1.56rem;
     font-weight: 700;
@@ -555,10 +567,14 @@ div.formContacto {
   .submenu {
     position: unset;
     display: none; }
-  .navMobile {
+  header label {
+    margin-top: 10%;
     display: block; }
-  .navDesktop {
-    display: none; } }
+  .navMobile {
+    display: none; }
+  #btn-menu:checked ~ .navMobile {
+    display: flex;
+    flex-direction: column; } }
 
 @media only screen and (min-width: 720px) and (max-width: 1024px) {
   .gridMaterial {
