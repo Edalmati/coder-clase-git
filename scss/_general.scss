@@ -65,6 +65,7 @@ p{
 }
 ul{
     list-style: none;
+    padding-left: 0px;
 }
 a{
     text-decoration: none;
@@ -100,6 +101,7 @@ span{
 .fondoGrad{
     background: linear-gradient(to bottom right,#2400ff, #DD3643 );
     padding: 60px;
+   
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -155,6 +157,7 @@ iframe{
     display: flex;
 flex-direction: column;
 }
+
 
 .boton404:hover {
     box-shadow: grey 2px 2px 2px inset ;

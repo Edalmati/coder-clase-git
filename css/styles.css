@@ -51,7 +51,8 @@ p {
   font-weight: 300; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  padding-left: 0px; }
 
 a {
   text-decoration: none;
@@ -206,10 +207,11 @@ li.menu {
   position: absolute;
   display: none;
   margin: 0px;
-  padding-left: 20%; }
+  padding-left: 25%; }
 
 .submenuItem {
-  display: block; }
+  display: block;
+  font-size: 1.3rem; }
 
 .menuAboutMe:hover > .submenu {
   display: block; }
@@ -323,10 +325,13 @@ div.formContacto {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      background: linear-gradient(to bottom right, #2400ff, #DD3643);
+      background-color: black;
       border-radius: 10px;
-      padding: 5px;
+      padding: 10px;
       color: white; }
+      div.formContacto .form2 .formInfo p {
+        font-weight: 500;
+        margin: 0px; }
     div.formContacto .form2 .formCheck {
       display: flex;
       background-color: black;
@@ -353,7 +358,8 @@ div.formContacto {
 .listaFechas {
   text-align: center;
   margin: auto;
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 0px; }
 
 .videoMegaloDiv {
   display: flex;
@@ -572,7 +578,9 @@ div.formContacto {
   .listaFechas {
     font-size: 16px;
     text-align: center;
-    margin: auto; } }
+    margin: auto; }
+  .titulo404 {
+    font-size: 35px; } }
 
 @media only screen and (min-width: 720px) and (max-width: 1024px) {
   .gridMaterial {
